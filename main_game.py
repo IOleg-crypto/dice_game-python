@@ -29,7 +29,6 @@ def start_game(name : str):
    guess_number  = int(input("Guess a number between 1 and 6: "))
    while guess_number > 6 or guess_number < 1:
        print("Please enter a number between 1 and 6")
-       return
    else:
      time.sleep(1)
      print("Rolling the dice...")
